@@ -25,7 +25,7 @@ def length4(s):
     if opcode not in valid_opcodes:
         print("Invalid Instruction - Invalid Opcode")
         return False
-    valid_reg = {'0','1','2','3','4','5'}
+    valid_reg = {'0','1','2','3','4','5','6'}
     reg1 = s[2]
     reg2 = s[3]
     if reg1 not in valid_reg:
